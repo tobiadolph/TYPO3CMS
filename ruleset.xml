@@ -24,7 +24,7 @@
 	<rule ref="Squiz.Arrays.ArrayBracketSpacing" />
 
 	<!-- Classes -->
-	<rule ref="../TYPO3SniffPool/Sniffs/Classes/LowercaseClassKeywordsSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Classes/LowercaseClassKeywordsSniff.php" />
 	<rule ref="Squiz.Classes.SelfMemberReference" />
 	<rule ref="Generic.Classes.DuplicateClassName" />
 
@@ -36,33 +36,33 @@
 
 	<!-- Commenting -->
 	<rule ref="PEAR.Commenting.InlineComment" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/DoubleSlashCommentsInNewLineSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/ValidCommentLineLengthSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/DocCommentSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/FileCommentSniff.php" />
-	<rule ref="TYPO3SniffPool.Commenting.FileComment">
+	<rule ref="../typo3sniffpool/Sniffs/Commenting/DoubleSlashCommentsInNewLineSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Commenting/ValidCommentLineLengthSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Commenting/DocCommentSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Commenting/FileCommentSniff.php" />
+	<rule ref="typo3sniffpool.Commenting.FileComment">
 		<exclude-pattern>*ext_emconf.php</exclude-pattern>
 		<exclude-pattern>*ext_tables.php</exclude-pattern>
 		<exclude-pattern>*ext_localconf.php</exclude-pattern>
 	</rule>
-	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/ClassCommentSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/FunctionCommentSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Commenting/NoAuthorAnnotationInFunctionDocCommentSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Commenting/ClassCommentSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Commenting/FunctionCommentSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Commenting/NoAuthorAnnotationInFunctionDocCommentSniff.php" />
 	<rule ref="Squiz.Commenting.DocCommentAlignment" />
 
 	<!-- Control structures -->
 	<rule ref="Generic.ControlStructures.InlineControlStructure" />
 	<rule ref="Squiz.ControlStructures.ControlSignature" />
-	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/DisallowElseIfConstructSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/AlignedBreakStatementSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/DisallowEachInLoopConditionSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/UnusedVariableInForEachLoopSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/ExtraBracesByAssignmentInLoopSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/SwitchDeclarationSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/ControlStructures/TernaryConditionalOperatorSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/ControlStructures/DisallowElseIfConstructSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/ControlStructures/AlignedBreakStatementSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/ControlStructures/DisallowEachInLoopConditionSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/ControlStructures/UnusedVariableInForEachLoopSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/ControlStructures/ExtraBracesByAssignmentInLoopSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/ControlStructures/SwitchDeclarationSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/ControlStructures/TernaryConditionalOperatorSniff.php" />
 
 	<!-- Debug -->
-	<rule ref="../TYPO3SniffPool/Sniffs/Debug/DebugCodeSniff.php">
+	<rule ref="../typo3sniffpool/Sniffs/Debug/DebugCodeSniff.php">
 		<exclude-pattern>*typo3/sysext/core/Classes/Utility/DebugUtility.php</exclude-pattern>
 	</rule>
 
@@ -79,9 +79,9 @@
 			<property name="absoluteLineLimit" value="200"/>
 		</properties>
 	</rule>
-	<rule ref="../TYPO3SniffPool/Sniffs/Files/IncludingFileSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Files/FilenameSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Files/FileExtensionSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Files/IncludingFileSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Files/FilenameSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Files/FileExtensionSniff.php" />
 	<rule ref="Zend.Files.ClosingTag" />
 
 	<!-- Formatting -->
@@ -94,9 +94,9 @@
 	<!-- Loops -->
 
 	<!-- NamingConventions -->
-	<rule ref="../TYPO3SniffPool/Sniffs/NamingConventions/ValidVariableNameSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/NamingConventions/ValidVariableNameSniff.php" />
 	<rule ref="Generic.NamingConventions.ConstructorName" />
-	<rule ref="../TYPO3SniffPool/Sniffs/NamingConventions/ValidFunctionNameSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/NamingConventions/ValidFunctionNameSniff.php" />
 
 	<!-- Objects -->
 
@@ -106,7 +106,7 @@
 	<rule ref="Generic.PHP.CharacterBeforePHPOpeningTag" />
 	<rule ref="Generic.PHP.DisallowShortOpenTag" />
 	<rule ref="Squiz.PHP.NonExecutableCode" />
-	<rule ref="../TYPO3SniffPool/Sniffs/PHP/DisallowMultiplePHPTagsSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/PHP/DisallowMultiplePHPTagsSniff.php" />
 	<rule ref="Generic.PHP.UpperCaseConstant" />
 	<rule ref="Generic.PHP.DeprecatedFunctions" />
 	<rule ref="Squiz.PHP.Eval">
@@ -118,26 +118,26 @@
 	<!-- Scope -->
 	<rule ref="Squiz.Scope.MemberVarScope" />
 	<rule ref="Squiz.Scope.MethodScope" />
-	<!--<rule ref="../TYPO3SniffPool/Sniffs/Scope/AlwaysReturnSniff.php" />-->
+	<!--<rule ref="../typo3sniffpool/Sniffs/Scope/AlwaysReturnSniff.php" />-->
 
 	<!-- Strings -->
-	<rule ref="../TYPO3SniffPool/Sniffs/Strings/UnnecessaryStringConcatSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Strings/UnnecessaryStringConcatSniff.php" />
 	<rule ref="Squiz.Strings.DoubleQuoteUsage" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Strings/ConcatenationSpacingSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/Strings/ConcatenationSpacingSniff.php" />
 
 	<!-- Whitespace -->
 	<rule ref="Squiz.WhiteSpace.SemicolonSpacing" />
 	<rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
 	<rule ref="Squiz.WhiteSpace.OperatorSpacing" />
-	<rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/NoWhitespaceAtInDecrementSniff.php" />
-	<rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/DisallowSpaceIndentSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/WhiteSpace/NoWhitespaceAtInDecrementSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/WhiteSpace/DisallowSpaceIndentSniff.php" />
 	<!--<rule ref="Generic.WhiteSpace.DisallowSpaceIndentSniff.php" />-->
-	<rule ref="../TYPO3SniffPool/Sniffs/WhiteSpace/ScopeClosingBraceSniff.php" />
+	<rule ref="../typo3sniffpool/Sniffs/WhiteSpace/ScopeClosingBraceSniff.php" />
 	<!--
 		@todo merge this two sniffs into one
 		Have a look at the wiki page for more informations
-	<rule ref="TYPO3SniffPool.Whitespace.WhitespaceAfterCommentSigns" />
-	<rule ref="TYPO3SniffPool.Commenting.SpaceAfterDoubleSlash" />
+	<rule ref="typo3sniffpool.Whitespace.WhitespaceAfterCommentSigns" />
+	<rule ref="typo3sniffpool.Commenting.SpaceAfterDoubleSlash" />
 	-->
 	<rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing" />
 </ruleset>
